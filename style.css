@@ -124,3 +124,49 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* Chart Section */
+.chart-section {
+  margin-top: 2rem;
+  background: #0f0f0f;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #00ff88;
+  box-shadow: 0 0 12px rgba(0, 255, 136, 0.4);
+}
+
+.chart-section h3 {
+  color: #00ff88;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px;
+  padding: 1rem;
+  background: #1a1a1a;
+  border-radius: 8px;
+}
+
+.bar {
+  width: 40px;
+  background: #00ff88;
+  color: #0d0d0d;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border-radius: 6px 6px 0 0;
+  transition: transform 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+.bar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
+}
