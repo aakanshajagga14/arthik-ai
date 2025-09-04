@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 
+body { background: pink; }
+
 body {
   font-family: Arial, sans-serif;
   background: #f5f7fa;
