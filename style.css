@@ -15,8 +15,8 @@ body {
 /* Sidebar */
 .sidebar {
   width: 220px;
-  background: #111; /* Darker black */
-  color: #00ff88;   /* Neon green */
+  background: #111;
+  color: #00ff88;
   height: 100vh;
   position: fixed;
   padding: 1.5rem 1rem;
